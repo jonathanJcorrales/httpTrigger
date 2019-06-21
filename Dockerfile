@@ -20,4 +20,4 @@ RUN dotnet publish "httpTrigger.csproj" -c Release -o /app
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app .
-ENTRYPOINT ["dotnet", "httpTrigger.dll"]
+ENTRYPOINT ["dotnet", "httpTrigger.dll"] 
