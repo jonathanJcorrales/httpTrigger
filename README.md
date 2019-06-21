@@ -1,2 +1,0 @@
-# httpTrigger
-Tech Challenge SouthWork
